@@ -1,0 +1,42 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  height: 200vh;
+}
+
+.header {
+  .line {
+    background-color: white;
+    height: 2px;
+    border-radius: 5px;
+  }
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  margin-top: 100px;
+
+  .description {
+    flex: 1;
+    text-align: center;
+    h3 {
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+
+  }
+  .example {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    perspective: 1000px;
+
+    img {
+      border-radius: 12px;
+
+    }
+  }
+}

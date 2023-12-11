@@ -1,0 +1,41 @@
+:host {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  row-gap: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+h2 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.main {
+  &-content {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 15px;
+    b {
+      margin-left: 100px;
+      font-size: 1.3rem;
+    }
+  }
+  &-img {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
